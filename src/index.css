@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+    h3 {
+        @apply font-bold mb-3;
+    }
+}
