@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Footer() { 
   return (
     <footer className="bg-purple-200 p-8 mt-16">
@@ -11,10 +13,10 @@ function Footer() {
         </ul>
         <ul>
           <h3>Навигация</h3>
-          <li>Главная</li>
-          <li>О нас</li>
-          <li>Каталог животных</li>
-          <li>Доставка и оплата</li>
+          <li><Link to="/">Главная</Link></li>
+          <li><Link to="/about">О нас</Link></li>
+          <li><Link to="/catalog">Каталог животных</Link></li>
+          <li><Link to="/cart">Доставка и оплата</Link></li>
         </ul>
         <ul>
           <h3>Социальные сети</h3>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-family-poppins: "Poppins", sans-serif;
+  --font-family-roboto: "Roboto", sans-serif;
 }
 
 @layer base {
@@ -9,6 +9,14 @@
         font-family: var(--font-family-poppins);
     }
     
+    h1 {
+        @apply font-bold text-3xl mb-5 ml-20 mt-10;
+    }
+
+    h2 {
+        @apply font-bold text-2xl mb-4;
+    }
+
     h3 {
         @apply font-bold mb-3;
     }
